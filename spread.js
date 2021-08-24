@@ -10,9 +10,9 @@ const maxArray=Math.max(...numbers); // finding max from an array
 // numbers.push(10);
 // //console.log(numbers2);
 
-const numbers2=[...numbers];   // creating new array;
-// const numbers2=[99,...numbers, 15];   // creating new array and adding num directly
-numbers.push(55);           // push in old array;
+const numbers2=[...numbers];              // creating new array;
+const numbers2=[99,...numbers, 15];     // creating new array and adding num directly
+numbers.push(55);                       // push in old array;
 console.log(numbers);      
 console.log(numbers2);
 
